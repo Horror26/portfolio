@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+.bg {
+  background-color:#d3eeee ;
+  
+}
+h1 {
+    font-size: 5.6em;
+    margin: 50px auto -10px auto;
+    font-family: 'Sacramento', cursive;
+    color: #d93f3f;
+}
+.headline {
+    font-family:  'Oswald', sans-serif;
+    font-size: 2.5rem;
+    color: #ecf575;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #66bfbf;
+    font-weight: normal;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #1133ee;
+    font-weight: 600;
+}
+
+.top-container {
+   background-image: url('https://drive.google.com/thumbnail?id=11EhjSUfRYSzqQ7kw3ZjITHy2CCFuCRia');
+   background-size: cover;
+   height: 50vh;
+   padding-top: 100px;
+   
+   background-repeat: no-repeat, no-repeat;
+}
+
+
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    
+}
+.skill {
+    text-align: left;
+    position: relative;
+    left: 30px;
+}
+.skill-image {
+    width: 25%;
+    float: left;
+   
+}
+.skill-2 {
+    
+    text-align: left;
+}
+.skill-image2 {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    border: 5px solid #66bfbf;
+    
+}
+.contact {
+    width: 17%;
+    border: 5px solid #66bfbf;
+}
+    
+.my-pic {
+    height:300px;
+    border: 5px solid #66bfbf;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hello-h {
+    margin-bottom: 10px;
+    font-size: 3rem;
+}
+.description {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 20px;
+    line-height: 2;
+}
+
+.hello-s {
+    margin: 20px auto -60px auto;
+    font-size: 3rem;
+}
+
+hr {
+    border-style: dotted none none;
+    border-color: grey;
+    border-width: 5px;
+    margin: 0 auto 30px auto;
+    width: 5%;
+}
+.hello-g {
+    margin: 20px auto 20px auto;
+    font-size: 3rem;
+}
+.or {
+    font-size: x-large;
+    
+}
+.reach {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 30px auto;
+}
+
+.btn {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    text-align: center;
+ }
+
+ .btn:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+ }
+ .btn.color1 {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+ }
+ .btn:focus {
+    outline: none;
+} 
+ .button{
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    text-align: center;
+}
+
+.button:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.button:focus {
+    outline: none;
+}
+
+.button.color {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+textarea {
+    width: 30%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    
+  }
+ .bottom-container {
+     background-color: #66bfbf;
+     padding-bottom: 5rem;
+     padding-top: 2rem;
+ }
+
+ .footer-link {
+     padding: 2rem;
+ }
+
+ .copy {
+     margin-top: 50px;
+     font-size: 1rem;
+     color: #eaf6f6;
+ }
+ a {
+     color: #11999e;
+     font-family: 'Montserrat', sans-serif;
+     text-decoration: none;
+ }
+ a:hover {
+     color: white;
+     
+ }
+ .insta {
+    border-radius: 20px;
+ }
+ .lin{
+    border-radius: 10px;
+ }
+ .grow img{
+    width: 4.5%;
+    transition: 1s ease;
+}
+
+.grow img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
